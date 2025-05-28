@@ -34,19 +34,15 @@ export default function Services() {
         </div>
 
         <div className="w-full overflow-hidden bg-black py-4 mt-20">
-            <div className="whitespace-nowrap animate-marquee text-white text-2xl md:text-3xl font-serif tracking-wider">
-                <span className="mx-8">Cuts</span>
-                <span className="mx-8">Colour</span>
-                <span className="mx-8">Styling</span>
-                <span className="mx-8">Blowouts</span>
-                <span className="mx-8">Undercuts</span>
-                <span className="mx-8">Cuts</span>
-                <span className="mx-8">Colour</span>
-                <span className="mx-8">Styling</span>
-                <span className="mx-8">Blowouts</span>
-                <span className="mx-8">Undercuts</span>
-            </div>
-            </div>
+  <div className="marquee-content">
+    <div className="flex space-x-12">
+      {Array(20).fill(['Styling', 'Blowouts', 'Undercuts', 'Cuts', 'Colour']).flat().map((word, i) => (
+        <span key={i} className="text-white text-2xl font-serif whitespace-nowrap">{word}</span>
+      ))}
+    </div>
+  </div>
+</div>
+
 
 
       </section>
