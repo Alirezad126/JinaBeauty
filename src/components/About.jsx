@@ -10,7 +10,7 @@ export default function About() {
         <div className="relative z-10 max-w-7xl mx-auto h-full flex items-center px-6 md:px-10">
           <div className="bg-white p-8 md:p-10 max-w-md shadow-lg rounded-sm">
             <h2 className="text-2xl md:text-3xl font-serif font-semibold text-gray-900 mb-4">
-              Making magic since 2012
+              Jina working since 2012
             </h2>
             <p className="text-gray-700 text-base leading-relaxed">
               We’ve been serving the community for over a decade, in the same historic location.
